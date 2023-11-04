@@ -1,8 +1,5 @@
-head {
-	display: none;
-}
 body {
-	text-align: left;
+	text-align: center;
 	color: rgb(200,200,200);
 	margin: 0;
 	font-family: Verdana, Helvetica, Arial;
@@ -21,24 +18,39 @@ body {
 	font-size: 18px;
 }
 .navbar a:hover {
-	color: rgb(255,255,255);
+	color: #FFFFFF;
 	background-color: rgb(45,45,45);
 }
 .navbar a.selected {
 	color: rgb(120,120,120);
-	background-color: rgb(35,35,35);
+	background-color: rgb(30,30,30);
 }
-.article {
-	padding-left: 48px;
-	padding-right: 50%;
-	text-align: left;
-}
-.footer {
-	padding-left: 48px;
-	padding-right: 50%;
+/* index.html */
+.indexArticle {
+	padding: 1% 2% 4% 0;
 }
 
-.footer h1 {
-	font-size: 30px;
-	
+#imageHannah {
+	width: 240px;
+	overflow: hidden;
+	height: 240px;
 }
+.indexArticle .aboutCats a{
+	color: rgb(200,200,200);
+	font-weight: normal;
+}
+
+.indexArticle .aboutCats a:hover{
+	color: #FFFFFF;
+	text-decoration-line: underline;
+	font-weight: bold;
+}
+
+.indexFooter {
+	padding: 1% 2% 4% 0;
+}
+
+.indexFooter h1 {
+	font-size: 30px;
+}
+/* hannah.html */

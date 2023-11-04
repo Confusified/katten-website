@@ -4,6 +4,7 @@
 		<title>Katten Homepagina</title>
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<link rel="icon" type="image/x-icon" href="favicon.ico"> <!-- https://openclipart.org/detail/166759/cat-face-outline -->
+		<script src="scripts.js"></script>
 	</head>
 	<body>
 		<main>
@@ -14,23 +15,34 @@
 				<a href="saar.html">Saar</a>
 			</nav>
 			
-			<article class="article">
-				<h1>Over deze website</h1>
-				<p>Deze website gaat over mijn katten met een aparte pagina voor elke kat.</p>
+			<article class="indexArticle">
+				<div class="aboutSite">
+					<h1>Over deze website</h1>
+					<p>Deze website gaat over mijn katten met een eigen pagina voor elke kat.</p>
+				</div>
 				<br>
-				<h2>Mijn katten</h2>
-				<p>Ik heb drie katten waar ik heel veel van houd.
-				Alle drie de katten zijn vrouwtjes en hun namen zijn: Hannah, Annabelle en Saar.</p>
+				<div class="aboutCats">
+					<h1>Mijn katten</h1>
+					<p>Ik heb drie katten waar ik heel veel van houd.
+					Alle drie de katten zijn vrouwtjes en hun namen zijn: Hannah, Annabelle en Saar.</p>
+					<br>
+					<h2 id="headerHannah">Hannah</h2>
+					<img id="imageHannah" src="img_Hannah_1.jpg" alt="Afbeelding van Hannah."><p id="textImageHannah">
+					Dit is Hannah, de oudste kat die ik heb.
+					Ze is een rustige kat en vindt het fijn om te knuffelen,
+					al is dat niet altijd zo.<br>
+					Je kan <a href="hannah.html">hier</a> meer over haar lezen.</p></img>
+					<br>
+					<h2 id="headerAnnabelle">Annabelle</h2>
+				</div>
+				<br>
 			</article>
 		</main>
-		<footer class="footer">
+		<footer class="indexFooter">
 			<h1>Over mij</h1>
-			<p id="aboutMe">Mijn naam is Rogier en ik ben %% jaar oud.
-				Ik heb gekozen om mijn website over mijn katten te houden,
-				omdat ik heel veel van katten houd en vooral van mijn eigen katten.</p>
+			<p id="aboutMe"></p>
 		</footer>
 		
-		<script src="index.js"></script>
-		<noscript>JavaScript wordt niet ondersteund op uw browser.</noscript>
+		<noscript>JavaScript wordt niet ondersteund door uw browser.</noscript>
 	</body>
 </html>

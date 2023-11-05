@@ -18,5 +18,17 @@ function onLoad(){
 		aboutMeParagraph.innerHTML = text;
 	}
 }
+window.onload = onLoad;
 
-window.onload = onLoad
+function toggleAboutMe(){
+	const container = document.getElementById("container-AboutMe");
+	const button = document.getElementById("buttonAboutMe");
+	if (container.style.display == "block") {
+		container.style.display = "none";
+		button.innerHTML = "Klik hier om over mij te lezen";
+	}
+	else {
+		container.style.display = "block";
+		button.innerHTML = "Klik hier om niet meer over mij te lezen";
+	}
+}

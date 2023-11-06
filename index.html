@@ -1,59 +1,79 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Katten Homepagina</title>
-		<link rel="stylesheet" type="text/css" href="styles.css">
-		<link rel="icon" type="image/x-icon" href="favicon.ico"> <!-- https://openclipart.org/detail/166759/cat-face-outline -->
-	</head>
-	<body>
-		<main>
-			<nav class="navbar">
-				<a class="selected" href="index.html">Startpagina</a>
-				<a href="hannah.html">Hannah</a>
-				<a href="annabelle.html">Annabelle</a>
-				<a href="saar.html">Saar</a>
-			</nav>
-			
-			<article class="indexArticle">
-				<div class="aboutSite">
-					<h1>Over deze website</h1>
-					<p>Deze website gaat over mijn katten met een eigen pagina voor elke kat.</p>
-				</div>
-				<br>
-				<div class="aboutCats">
-					<h1>Mijn katten</h1>
-					<p>Ik heb drie katten waar ik heel veel van houd.
-					Alle drie de katten zijn vrouwtjes en hun namen zijn: Hannah, Annabelle en Saar.
-					Al onze katten mogen niet naar buiten, omdat de leefsituatie daar niet erg geschikt voor is
-					en het is veiliger om hen binnen te houden.</p>
-					<br>
-					<div class="aboutHannah">
-						<h2 id="headerHannah">Hannah</h2>
-						<img id="imageHannah" src="img_Hannah_1.jpg" alt="Afbeelding van Hannah."><p id="textImageHannah">
-						Dit is Hannah, de oudste kat die ik heb.
-						Ze is een rustige kat en vindt het fijn om te knuffelen,
-						al is dat niet altijd zo.</p></img>
-						<p>Je kan <a href="hannah.html">hier</a> meer over haar lezen.</p>
-					</div>
-					<br>
-					<div class="aboutAnnabelle">
-						<h2 id="headerAnnabelle">Annabelle</h2>
-						<p>tekst</p>
-					</div>
-				</div>
-				<br>
-			</article>
-		</main>
-		<footer class="indexFooter">
-		<button type="button" onclick="toggleAboutMe()" id="buttonAboutMe">Klik hier om over mij te lezen</button>
-			<div id="container-AboutMe">
-				<h1>Over mij</h1>
-				<p id="aboutMe"></p>
-			</div>
-		</footer>
-		
-		
-		<script src="scripts.js"></script>
-		<noscript>JavaScript wordt niet ondersteund door uw browser.</noscript>
-	</body>
+  <head>
+    <title>Katten Homepagina</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <!-- https://openclipart.org/detail/166759/cat-face-outline -->
+  </head>
+  <body>
+    <main>
+      <nav class="navbar">
+        <a class="selected" href="index.html">Startpagina</a>
+        <a href="hannah.html">Hannah</a>
+        <a href="annabelle.html">Annabelle</a>
+        <a href="saar.html">Saar</a>
+      </nav>
+
+      <article class="indexArticle">
+        <div class="aboutSite">
+          <h1>Over deze website</h1>
+          <p>
+            Deze website gaat over mijn katten met een eigen pagina voor elke
+            kat.
+          </p>
+        </div>
+        <br>
+        <div class="aboutCats">
+          <h1>Mijn katten</h1>
+          <p>
+            Ik heb drie katten waar ik heel veel van houd. Alle drie de katten
+            zijn vrouwtjes en hun namen zijn: Hannah, Annabelle en Saar. Al onze
+            katten mogen niet naar buiten, omdat de leefsituatie daar niet erg
+            geschikt voor is en het is veiliger om hen binnen te houden.
+          </p>
+          <br />
+          <div class="aboutHannah">
+            <h2>Hannah</h2>
+            <img id="imageHannah" src="img_Hannah_1.jpg" alt="Afbeelding van Hannah.">
+            <p id="textImageHannah">
+              Dit is Hannah, de oudste kat die ik heb. Ze is een rustige kat en
+              vindt het fijn om te knuffelen en aan je te hangen, al is dat niet altijd zo.
+            </p>
+            <p>Je kan <a href="hannah.html">hier</a> meer over Hannah lezen.</p>
+          </div>
+          <br>
+          <div class="aboutAnnabelle">
+            <h2>Annabelle</h2>
+			      <img id="imageAnnabelle" src="img_Annabelle_1.jpg" alt="Afbeelding van Annabelle.">
+            <p id="textImageAnnabelle">
+              Annabelle is een hele lieve tedere kat. Zij wilt heel graag aandacht en zal het ook zeker van jou vragen, maar raakt snel al bang en rent zij weg.
+            </p>
+            <p>Je kan <a href="annabelle.html">hier</a> meer over Annabelle lezen.</p>
+          </div>
+          <div class="aboutSaar">
+            <h2>Saar</h2>
+            <img id="imageSaar" src="img_Saar_1.jpg" alt="Afbeelding van Saar.">
+            <p id="textImageSaar">
+              Saar, ookwel bekent als Saartje, is onze kitten die wij sinds kort hebben. Zij is nog hard aan het groeien en daar hoort heel veel spelen natuurlijk wel bij.
+            </p>
+            <p>Je kan <a href="saar.html">hier</a> meer over Saar lezen.</p>
+          </div>
+        </div>
+        <br>
+      </article>
+    </main>
+    <footer class="indexFooter">
+      <button type="button" onclick="toggleAboutMe()" id="buttonAboutMe">
+        Klik hier om over mij te lezen
+      </button>
+      <div id="container-AboutMe">
+        <h1>Over mij</h1>
+        <p id="aboutMe"></p>
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <noscript>JavaScript wordt niet ondersteund door uw browser.</noscript>
+  </body>
 </html>

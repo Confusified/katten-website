@@ -1,9 +1,10 @@
+/* global */
 body {
 	text-align: center;
 	color: rgb(200,200,200);
 	margin: 0;
 	font-family: Verdana, Helvetica, Arial;
-	font-size: 20px;
+	font-size: 21px;
 	background-color: rgb(35,35,40);
 }
 
@@ -16,7 +17,7 @@ body {
 	color: rgb(200,200,200);
 	float: left;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 19px;
 	transition-duration: 0.15s;
 }
 .navbar a:hover {
@@ -30,19 +31,43 @@ body {
 }
 /* index.html */
 .indexArticle {
-	padding: 1% 5%;
+	padding: 10px 50px;
 }
 
 #imageHannah {
-	width: 15%;
+	width: 240px;
 	overflow: hidden;
-	height: 15%;
+	height: 240px;
 	float: right;
-	padding-left: 1%;
+	padding-left: 8px;
 }
 #textImageHannah{
-	margin: 0 0 14% 25%;
+	margin: 0 0 240px 240px;
 	text-align: right;
+}
+
+#imageAnnabelle {
+	width: 240px;
+	overflow: hidden;
+	height: 240px;
+	float: left;
+	padding-right: 8px;
+}
+
+#textImageAnnabelle{
+	margin: 0 240px 240px 0;
+	text-align: left;
+}
+
+#imageSaar {
+	width: 240px;
+	overflow: hidden;
+	height: 240px;
+	padding: 8px 0;
+}
+
+#textImageSaar{
+	margin-bottom:60px;
 }
 
 .indexArticle .aboutCats a{
@@ -57,7 +82,7 @@ body {
 }
 
 .indexFooter {
-	padding: 2% 5% 1% 5%;
+	padding: 10px 60px;
 }
 
 .indexFooter h1 {
@@ -67,7 +92,7 @@ body {
 #buttonAboutMe{
 	background-color: rgb(150,150,150);
 	border-radius: 10px;
-	color: rgb(200,200,200);
+	color: rgb(30,30,30);
 	width: 25%;
 	height: 50px;
 	font-size: 18px;
@@ -76,5 +101,7 @@ body {
 
 #container-AboutMe {
 	display: none;
+	position: absolute;
+	width: 100%;
 }
 /* hannah.html */

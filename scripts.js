@@ -1,6 +1,6 @@
 // Code om de leeftijd in de Over mij aan te passen - index.html
 function onLoad(){
-	if (typeof document.getElementById("aboutMe") !== "undefined" && document.getElementById("aboutMe") !== null)  {
+	if (typeof document.getElementById("aboutMe") !== "undefined" && document.getElementById("aboutMe") !== null)  { //onload script voor index.html
 		const currentDate = new Date();
 		const currentYear = currentDate.getFullYear();
 		const currentMonth = currentDate.getMonth();

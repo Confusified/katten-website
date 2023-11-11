@@ -110,16 +110,19 @@ body {
 	padding: 0 5%;
 }
 
+.imageHolder {
+  max-width: 560px;
+  position: relative;
+  margin: auto;
+}
+
 .slideFade{
-	/*display: none;*/
+	display: none;
 }
 
 .slideFade img{
 	width: 560px;
 	height: auto;
-	overflow: hidden;
-	padding: 24px;
-	position: relative;
 }
 
 #hannahParagraph{
@@ -127,20 +130,73 @@ body {
 }
 
 #hannah_imageText{
-	color: rgb(255,255,255);
-	text-align: center;
-	position: absolute;
-	font-size: 15px;
-	bottom: -42px;
-	width: 100%;
-	padding: 0 12px;
+	color: rgb(222,222,222);
+  font-size: 16px;
+	background-color: rgba(0,0,0,.2);
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 96%;
+  text-align: center;
 }
 
 #hannah_numberText{
-	font-size: 12px;
-	padding: 8px 12px;
-	width: 100%;
-	position: absolute;
-	top: 50px;
-	
+	color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Next & previous buttons */
+#prevImage, #nextImage {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(255,255,255);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.imageDot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(180,180,180);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active .imageDot:hover {
+	background-color: rgb(255,255,255);
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+#nextImage {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+#prevImage {
+	left: 0;
+}
+
+#prevImage:hover, #nextImage:hover{
+	background-color: rgba(0,0,0,0.8);
 }

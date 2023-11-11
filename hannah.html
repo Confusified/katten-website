@@ -29,7 +29,16 @@
 					<img src="img_Hannah_3.jpg" alt="Afbeelding van Hannah.">
 					<div id="hannah_imageText">Hannah op de tafel.</div>
 				</div>
+
+				<a id="prevImage" onclick="showSlide(slideIndex-=1)">←</a>
+				<a id="nextImage" onclick="showSlide(slideIndex+=1)">→</a>
 			</div>
+			<div>
+				<span class="imageDot" onclick="showSlide(slideIndex = 1)"></span>
+				<span class="imageDot" onclick="showSlide(slideIndex = 2)"></span>
+				<span class="imageDot" onclick="showSlide(slideIndex = 3)"></span>
+			</div>
+
 			<div class="htmlhannahText">
 				<h1>Hannah</h1>
 				<p id="hannahParagraph">Hannah is mijn oudste kat en ook mijn favoriete kat.

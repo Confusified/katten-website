@@ -1,4 +1,4 @@
-function indexLoadJS(){
+function LoadJS(){
 	const currentDate = new Date();
 	const currentYear = currentDate.getFullYear();
 	const currentMonth = currentDate.getMonth();
@@ -9,13 +9,10 @@ function indexLoadJS(){
 		currentAge -= 1;
 	}
 	const aboutMeParagraph = document.getElementById("aboutMe");
-	let text = "Mijn naam is Rogier en ik ben %% jaar oud. " + 
-				"Ik heb gekozen om mijn website over mijn katten te houden, " + 
-				"omdat ik heel veel van katten houd en vooral van mijn eigen katten.";
-	text = text.replace("%%",currentAge); //Vervang %% met de leeftijd
+	let text = aboutMeParagraph.innerHTML.replace("%%",currentAge); //Vervang %% met de leeftijd
 	aboutMeParagraph.innerHTML = text;
 }
-window.onload = indexLoadJS;
+window.onload = LoadJS;
 
 function toggleAboutMe(){
   const container = document.getElementById("container-AboutMe");

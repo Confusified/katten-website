@@ -9,14 +9,50 @@
 	</head>
 	<body>
 		<main>
-		<div class="navbar">
-			<a href="index.html">Startpagina</a>
-			<a href="hannah.html">Hannah</a>
-			<a class="selected">Annabelle</a>
-			<a href="saar.html">Saar</a>
-		</div>
-			<h1>Annabelle</h1>
-			<p>tekst over annabelle</p>
+			<div class="navbar">
+				<a href="index.html">Startpagina</a>
+				<a href="hannah.html">Hannah</a>
+				<a class="selected">Annabelle</a>
+				<a href="saar.html">Saar</a>
+			</div>
+			<div class="imageHolder">
+				<div class="slideFade">
+					<div id="numberText">1 / 4</div>
+					<img src="img_Annabelle_1.jpg" alt="Afbeelding van Annabelle.">
+					<div id="imageText">Een foto van dichtbij van Annabelle.</div>
+				</div>
+				<div class="slideFade">
+					<div id="numberText">2 / 4</div>
+					<img src="img_Annabelle_2.jpg" alt="Afbeelding van Annabelle.">
+					<div id="imageText">Annabelle die in de camera kijkt.</div>
+				</div>
+				<div class="slideFade">
+					<div id="numberText">3 / 4</div>
+					<img src="img_Annabelle_3.jpg" alt="Afbeelding van Annabelle.">
+					<div id="imageText">Annabelle zit op de stoel, terwijl Hannah naar haar kijkt.</div>
+				</div>
+				<div class="slideFade">
+					<div id="numberText">4 / 4</div>
+					<img src="img_Annabelle_4.jpg" alt="Afbeelding van Annabelle.">
+					<div id="imageText">Annabelle ligt op mijn schoot en kijkt naar het broodje in mijn hand.</div>
+				</div>
+
+				<a id="prevImage" onclick="showSlide(slideIndex-=1)">←</a>
+				<a id="nextImage" onclick="showSlide(slideIndex+=1)">→</a>
+			</div>
+			<div>
+				<span class="imageDot" onclick="showSlide(slideIndex = 1)"></span>
+				<span class="imageDot" onclick="showSlide(slideIndex = 2)"></span>
+				<span class="imageDot" onclick="showSlide(slideIndex = 3)"></span>
+				<span class="imageDot" onclick="showSlide(slideIndex = 4)"></span>
+			</div>
+
+			<div class="htmlText">
+				<h1>Annabelle</h1>
+				<p>Annabelle is de tweede kat die wij hebben gekregen. Ze is heel gauw bang, maar wilt heel graag aandacht.
+					
+				</p>
+			</div>
 		</main>
 		
 		<script src="annabelle.js"></script>

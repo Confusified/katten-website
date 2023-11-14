@@ -1,8 +1,8 @@
-function hannahLoadJS() { //zorgt voor functie van afbeeldingen - hannah.html
+function LoadJS() { //zorgt voor functie van afbeeldingen - hannah.html
   showSlide(slideIndex = 1);
   }
 
-  window.onload = hannahLoadJS;
+  window.onload = LoadJS;
 
   function showSlide(n) {
     let i;

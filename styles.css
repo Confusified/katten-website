@@ -12,6 +12,7 @@ body {
 	overflow: hidden;
 	background-color: rgb(25,25,30);
 }
+
 .navbar a {
 	padding: 16px 18px;
 	color: rgb(200,200,200);
@@ -20,14 +21,18 @@ body {
 	font-size: 19px;
 	transition-duration: 0.15s;
 }
+
 .navbar a:hover {
 	color: #FFFFFF;
 	background-color: rgb(45,45,45);
 	transition-duration: 0.15s;
+	cursor: pointer;
 }
+
 .navbar a.selected {
 	color: rgb(120,120,120);
 	background-color: rgb(30,30,30);
+	cursor: default;
 }
 /* index.html */
 .indexArticle {
@@ -117,6 +122,7 @@ body {
 
 .slideFade{
 	display: none;
+	padding-top: 5%;
 }
 
 .slideFade img{
@@ -126,6 +132,7 @@ body {
 
 #hannahParagraph{
 	text-align: left;
+	padding: 0 3%;
 }
 
 #hannah_imageText{
@@ -142,12 +149,11 @@ body {
 #hannah_numberText{
 	color: #f2f2f2;
   font-size: 12px;
-  padding: 8px 12px;
+  padding: 6% 12px 8px 12px;
   position: absolute;
   top: 0;
 }
 
-/* Next & previous buttons */
 #prevImage, #nextImage {
   cursor: pointer;
   position: absolute;
@@ -174,19 +180,21 @@ body {
   transition-duration: 0.25s;
 }
 
-.imageDot.active .imageDot:hover {
+.imageDot.active, .imageDot:hover {
 	background-color: rgb(255,255,255);
-	transition-duration: 0.25s;
+	transition-duration: 0.35s;
 }
 
 #nextImage {
 	right: 0;
 	border-radius: 3px 0 0 3px;
 }
+
 #prevImage {
 	left: 0;
 }
 
 #prevImage:hover, #nextImage:hover{
 	background-color: rgba(0,0,0,0.8);
+	transition-duration: 0.45s;
 }

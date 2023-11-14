@@ -16,7 +16,6 @@ function hannahLoadJS() { //zorgt voor functie van afbeeldingen - hannah.html
     for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
     }
-    slides[slideIndex-1].style.display = "block";  
-    slides[slideIndex].style.opacity = "1";
+    slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
     }

@@ -51,7 +51,7 @@
 }
 
 .indexFooter {
-	padding: 0 5% 2% 5%;
+	padding: 0 5%;
 }
 
 .indexFooter h1 {
@@ -64,7 +64,7 @@
 	color: rgb(30,30,30);
 	width: 50%;
 	max-width: 350px;
-	margin-bottom: 3%;
+	margin-bottom: 2%;
 	height: 55px;
 	font-size: 18px;
 	cursor: pointer;
@@ -73,4 +73,5 @@
 #container-AboutMe {
 	display: none;
 	width: 100%;
+	padding-bottom: 1%;
 }

@@ -6,7 +6,7 @@ function LoadJS() { //zorgt voor functie van afbeeldingen - hannah.html
 
   function showSlide(n) {
     let i;
-    const slides = document.getElementsByClassName("slideFade");
+    const slides = document.getElementsByClassName("slide");
     const dots = document.getElementsByClassName("imageDot");
     if (n > slides.length) {slideIndex = 1}    
     if (n < 1) {slideIndex = slides.length}

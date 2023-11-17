@@ -15,10 +15,45 @@
 			<a href="annabelle.html">Annabelle</a>
 			<a class="selected">Saar</a>
 		</div>
-			<h1>Saar</h1>
-			<p>tekst over saar (saartje)</p>
-		</main>
-		
-		<script src="saar.js"></script>
-	</body>
+
+		<h1>Saar</h1>
+
+		<div class="imageHolder">
+			<div class="slide">
+				<div id="numberText">1 / 4</div>
+				<img src="img_Saar_1.jpg" alt="Afbeelding van Saar.">
+				<div id="imageText">Saar hangt met haar poten van mijn tafeltje.</div>
+			</div>
+			<div class="slide">
+				<div id="numberText">2 / 4</div>
+				<img src="img_Saar_2.jpg" alt="Afbeelding van Saar.">
+				<div id="imageText">Saar kijkt naar mij, terwijl Hannah naar haar kijkt.</div>
+			</div>
+			<div class="slide">
+				<div id="numberText">3 / 4</div>
+				<img src="img_Saar_3.jpg" alt="Afbeelding van Saar.">
+				<div id="imageText">Saar staat naast de ingang van de keuken.</div>
+			</div>
+			<div class="slide">
+				<div id="numberText">4 / 4</div>
+				<img src="img_Saar_4.jpg" alt="Afbeelding van Saar.">
+				<div id="imageText">GEEN AFBEELDING.</div>
+			</div>
+
+			<a id="prevImage" onclick="showSlide(slideIndex-=1)">←</a>
+			<a id="nextImage" onclick="showSlide(slideIndex+=1)">→</a>
+		</div>
+		<div>
+			<span class="imageDot" onclick="showSlide(slideIndex = 1)"></span>
+			<span class="imageDot" onclick="showSlide(slideIndex = 2)"></span>
+			<span class="imageDot" onclick="showSlide(slideIndex = 3)"></span>
+			<span class="imageDot" onclick="showSlide(slideIndex = 4)"></span>
+		</div>
+
+		<p>Saar is onze nieuwste kat en zij is nog maar een kitten. Wij hebben haar pas enkele maanden.
+		</p>
+	</main>
+	
+	<script src="catPage.js"></script>
+</body>
 </html>

@@ -1,5 +1,5 @@
 function LoadJS(){
-	let currentDate = new Date();
+	const currentDate = new Date();
 	const currentYear = currentDate.getFullYear();
 	const currentMonth = currentDate.getMonth();
 	const currentDay = currentDate.getUTCDate();

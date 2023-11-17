@@ -9,8 +9,7 @@ function LoadJS(){
 		currentAge -= 1;
 	}
 	const aboutMeParagraph = document.getElementById("aboutMe");
-	let text = aboutMeParagraph.innerHTML.replace("%%",currentAge); //Vervang %% met de leeftijd
-	aboutMeParagraph.innerHTML = text;
+	aboutMeParagraph.innerHTML = aboutMeParagraph.innerHTML.replace("%%",currentAge); //Vervang %% met de leeftijd
 }
 window.onload = LoadJS;
 

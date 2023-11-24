@@ -24,7 +24,7 @@ body {
 
 .navbar a:hover {
 	color: #FFFFFF;
-	background-color: rgb(45,45,45);
+	background-color: rgb(40,40,40);
 	transition-duration: 0.15s;
 	cursor: pointer;
 }

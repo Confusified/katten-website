@@ -1,0 +1,29 @@
+.accordion_button{
+  background-color: rgb(25,25,25);
+  color: rgb(222,222,222);
+  cursor: pointer;
+  padding: 16px;
+  width: 100%;
+  border: none;
+  left: 0;
+  text-align: center;
+  outline: none;
+  font-size: 21px;
+  transition: 0.3s;
+  right: 0;
+}
+
+.active, .accordion_button:hover {
+  background-color: rgb(20,20,20); 
+}
+
+.accordion_panel{
+  padding: 0px 18px;
+  display: block;
+  font-size: 18px;
+  background-color: rgb(30,30,30);
+  overflow: hidden;
+  text-align: left;
+  transition: 0.3s;
+  height: 0;
+}

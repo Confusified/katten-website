@@ -24,6 +24,16 @@
   background-color: rgb(30,30,30);
   overflow: hidden;
   text-align: left;
-  transition: 0.3s;
   height: 0;
+}
+
+.accordion_panel p{
+  font-size: 20px;
+}
+
+body img{
+  float: right;
+  padding: 0 1% 2% 1%;
+  width: 375px;
+  height: auto;
 }

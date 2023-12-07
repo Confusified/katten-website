@@ -39,12 +39,12 @@
 	margin-bottom: 5%;
 }
 
-.indexArticle .aboutCats a{
+.indexArticle .aboutCats a, .indexFooter a{
 	color: rgb(200,200,200);
 	font-weight: normal;
 }
 
-.indexArticle .aboutCats a:hover{
+.indexArticle .aboutCats a:hover, .indexFooter a:hover{
 	color: #FFFFFF;
 	text-decoration-line: underline;
 	font-weight: bold;

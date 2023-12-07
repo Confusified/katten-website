@@ -1,0 +1,42 @@
+.accordion_button{
+  background-color: rgb(25,25,25);
+  color: rgb(222,222,222);
+  cursor: pointer;
+  padding: 16px;
+  width: 100%;
+  border: none;
+  left: 0;
+  text-align: center;
+  outline: none;
+  font-size: 21px;
+  transition: 0.3s;
+  right: 0;
+}
+
+.active, .accordion_button:hover {
+  background-color: rgb(20,20,20); 
+}
+/* css voor de lijst moet gemaakt worden*/
+.accordion_panel{
+  padding: 0px 18px;
+  display: block;
+  font-size: 18px;
+  background-color: rgb(30,30,30);
+  overflow: auto;
+  text-align: left;
+  height: 0;
+}
+
+.accordion_panel p{
+  font-size: 20px;
+}
+
+#angelaIntro, .accordion_panel div{
+  padding: 25px 0;
+}
+
+.accordion_panel div img{
+  padding: 1% 1%;
+  width: 375px;
+  height: auto;
+}

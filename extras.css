@@ -16,13 +16,13 @@
 .active, .accordion_button:hover {
   background-color: rgb(20,20,20); 
 }
-
+/* css voor de lijst moet gemaakt worden*/
 .accordion_panel{
   padding: 0px 18px;
   display: block;
   font-size: 18px;
   background-color: rgb(30,30,30);
-  overflow: hidden;
+  overflow: auto;
   text-align: left;
   height: 0;
 }
@@ -31,9 +31,12 @@
   font-size: 20px;
 }
 
-body img{
-  float: right;
-  padding: 0 1% 2% 1%;
+#angelaIntro, .accordion_panel div{
+  padding: 25px 0;
+}
+
+.accordion_panel div img{
+  padding: 1% 1%;
   width: 375px;
   height: auto;
 }
